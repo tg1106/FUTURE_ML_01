@@ -1,0 +1,12 @@
+name: sales-forecast
+channels:
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - scikit-learn
+      - jupyter
