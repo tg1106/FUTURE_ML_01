@@ -123,8 +123,6 @@ sales-demand-forecasting/
 | Random Forest     | 74336.03  | 118337.50 |
 | XGBoost           | 69480.42  | 109974.27 |
 
-*(Update with your actual results for extra impact.)*
-
 ---
 
 ## ▶️ How to Run
@@ -190,6 +188,7 @@ python src/train.py
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to improve.
+
 
 
 
