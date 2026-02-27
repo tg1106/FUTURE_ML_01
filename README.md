@@ -51,7 +51,7 @@ The goal is to minimize prediction error (MAE, RMSE) and provide reliable sales 
 
 ## Tech Stack
 
-* Python 🐍
+* Python 
 * Pandas
 * NumPy
 * Scikit-learn
@@ -188,6 +188,7 @@ python src/train.py
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to improve.
+
 
 
 
