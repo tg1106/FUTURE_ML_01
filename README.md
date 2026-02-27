@@ -1,7 +1,3 @@
-Bet. I got you. Here’s a **clean, professional, recruiter-impressing README.md** for your **Sales Forecasting System** project. You can directly copy this into your `README.md`.
-
----
-
 # 📈 Sales Forecasting System
 
 A machine learning-powered system that predicts future sales based on historical data using advanced regression models.
@@ -164,5 +160,6 @@ python src/train.py
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to improve.
+
 
 
