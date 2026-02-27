@@ -63,23 +63,53 @@ The goal is to minimize prediction error (MAE, RMSE) and provide reliable sales 
 ## 📂 Project Structure
 
 ```
-sales-forecasting-system/
+sales-demand-forecasting/
 │
 ├── data/
-│   ├── train.csv
-│   └── test.csv
+│   ├── raw/                         # Original Kaggle files (never modified)
+│   │   ├── train.csv
+│   │   ├── test.csv
+│   │   ├── stores.csv
+│   │   ├── holidays_events.csv
+│   │   ├── oil.csv
+│   │   ├── transactions.csv
+│   │   └── sample_submission.csv
+│   │
+│   ├── interim/                     # Aggregated / intermediate outputs
+│   │   └── daily_sales_aggregated.csv
+│   │
+│   └── processed/                   # Feature-engineered data
+│       └── features.csv
 │
 ├── notebooks/
-│   ├── 01_data_preprocessing.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_training.ipynb
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_chunk_aggregation.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_forecasting_model.ipynb
+│   └── 05_business_visualization.ipynb
 │
-├── src/
-│   ├── preprocess.py
-│   ├── train.py
-│   └── evaluate.py
+├── src/                             # Reusable Python modules (optional but pro)
+│   ├── data_loader.py
+│   ├── preprocessing.py
+│   ├── features.py
+│   ├── model.py
+│   ├── evaluate.py
+│   └── visualize.py
+│
+├── outputs/
+│   ├── figures/                     # Saved plots
+│   │   └── forecast_plot.png
+│   │
+│   └── forecasts/                   # Future predictions
+│       └── next_30_days.csv
+│
+├── reports/
+│   ├── business_summary.md
+│   └── technical_notes.md
 │
 ├── requirements.txt
+├── environment.yml
+├── .gitignore
 └── README.md
 ```
 
@@ -160,6 +190,7 @@ python src/train.py
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to improve.
+
 
 
 
