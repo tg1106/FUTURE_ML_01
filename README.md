@@ -1,11 +1,11 @@
-# 📈 Sales Forecasting System
+# Sales Forecasting System
 
 A machine learning-powered system that predicts future sales based on historical data using advanced regression models.
 Built to help businesses make smarter, data-driven inventory and revenue decisions.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The **Sales Forecasting System** analyzes historical sales data and predicts future sales using supervised machine learning models such as:
 
@@ -17,7 +17,7 @@ The goal is to minimize prediction error (MAE, RMSE) and provide reliable sales 
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Data Preprocessing**
 
@@ -49,7 +49,7 @@ The goal is to minimize prediction error (MAE, RMSE) and provide reliable sales 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Python 🐍
 * Pandas
@@ -115,7 +115,7 @@ sales-demand-forecasting/
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Model             |    MAE    |    RMSE   |
 | ----------------- | --------- | --------- |
@@ -125,16 +125,16 @@ sales-demand-forecasting/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
-### 1️⃣ Clone the Repository
+### 1 Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/sales-forecasting-system.git
 cd sales-forecasting-system
 ```
 
-### 2️⃣ Create Virtual Environment
+### 2 Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -142,13 +142,13 @@ source venv/bin/activate  # Mac/Linux
 venv\Scripts\activate     # Windows
 ```
 
-### 3️⃣ Install Dependencies
+### 3 Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Run Model
+### 4 Run Model
 
 ```bash
 python src/train.py
@@ -156,7 +156,7 @@ python src/train.py
 
 ---
 
-## 📈 Use Cases
+## Use Cases
 
 * Retail demand prediction
 * Inventory optimization
@@ -166,7 +166,7 @@ python src/train.py
 
 ---
 
-## 🔥 Key Highlights
+## Key Highlights
 
 * Clean modular structure
 * Multiple model comparison
@@ -176,7 +176,7 @@ python src/train.py
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Deploy as a web app (Streamlit / Flask)
 * Add LSTM / Deep Learning models
@@ -185,9 +185,10 @@ python src/train.py
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to improve.
+
 
 
 
